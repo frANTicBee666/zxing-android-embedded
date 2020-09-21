@@ -19,8 +19,8 @@ import java.util.Map;
  * Licensed under the Apache License, Version 2.0.
  */
 public class BarcodeEncoder {
-    private static final int WHITE = 0xFFFFFFFF;
-    private static final int BLACK = 0xFF000000;
+    private static final int WHITE = 0x00FFFFFF;
+    private static final int BLACK = 0x00000000;
 
 
     public BarcodeEncoder() {
